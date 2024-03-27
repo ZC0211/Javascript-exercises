@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+    width: 960px;
+    height: 960px;
+    aspect-ratio: 1 / 1;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: calc(960px / 16);
+    height: calc(960px / 16);
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#resetButton {
+    display: block;
+    margin: 10px auto;
+}
